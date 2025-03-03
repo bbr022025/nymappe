@@ -1,0 +1,14 @@
+{
+  "folders": [
+	{
+		"path": "../.."
+	},
+	{
+		"path": "../../javascript oppgave"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "Documents",
+    "dotnet.defaultSolution": "Documents/HelloWorld.sln"
+  }
+}
