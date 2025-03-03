@@ -14,12 +14,18 @@ class Program
           + russianMessage
           + ":" + "\n\t"
           + $@"c:\Exercise\{projectName}\ru-Ru\data.txt");
-        //         You may only use either the Console.WriteLine() or the Console.Write() method twice.
-        //         Use character escape sequences, verbatim strings, unicode, and string interpolation to generate the output.
-        //         View English output:
-        //     c:\Exercise\ACME\data.txt
 
-        //   Посмотреть русский вывод:
-        //   c:\Exercise\ACME\ru - RU\data.txt
+        //mathoperations
+
+        int sum = 7 + 5;
+        int difference = 7 - 5;
+        int product = 7 * 5;
+        int quotient = 7 / 5;
+
+        Console.Write("\n");
+        Console.WriteLine("Sum: " + sum);
+        Console.WriteLine("Difference: " + difference);
+        Console.WriteLine("Product: " + product);
+        Console.WriteLine("Quotient: " + quotient);
     }
 }
